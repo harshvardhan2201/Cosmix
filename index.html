@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmix | Terms of Service</title>
+    <style>
+        /* Import a futuristic, clean font from Google Fonts */
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&display=swap');
+
+        :root {
+            --bg-color: #0b0c10;
+            --text-main: #c5c6c7;
+            --text-heading: #ffffff;
+            --accent: #66fcf1;
+            --accent-dark: #45a29e;
+            --card-bg: #1f2833;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Space Grotesk', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            /* Subtle top gradient for depth */
+            background-image: radial-gradient(circle at top, #1a1e29 0%, transparent 40%);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+            position: relative;
+        }
+
+        h1 {
+            font-size: 3.5rem;
+            color: var(--text-heading);
+            margin-bottom: 10px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            text-shadow: 0 0 20px rgba(102, 252, 241, 0.4);
+        }
+
+        .date-badge {
+            display: inline-block;
+            background: var(--card-bg);
+            padding: 8px 20px;
+            border-radius: 30px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--accent);
+            border: 1px solid rgba(102, 252, 241, 0.2);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .content-block {
+            background: rgba(31, 40, 51, 0.7);
+            backdrop-filter: blur(10px);
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.6);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        h2 {
+            color: var(--text-heading);
+            border-bottom: 2px solid var(--accent-dark);
+            padding-bottom: 10px;
+            margin-top: 40px;
+            font-size: 1.5rem;
+        }
+
+        h2:first-child {
+            margin-top: 0;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            transition: text-shadow 0.3s ease;
+        }
+
+        a:hover {
+            text-shadow: 0 0 10px var(--accent);
+        }
+
+        .highlight {
+            color: var(--accent);
+            font-weight: 600;
+        }
+
+        .footer-note {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.85rem;
+            opacity: 0.5;
+            transition: opacity 0.3s ease;
+        }
+        
+        .footer-note:hover {
+            opacity: 1;
+        }
+
+        /* Cosmic glowing orb effect in the background */
+        .orb {
+            position: fixed;
+            width: 400px;
+            height: 400px;
+            border-radius: 50%;
+            background: var(--accent);
+            filter: blur(180px);
+            opacity: 0.15;
+            z-index: -1;
+            top: -100px;
+            right: -100px;
+            pointer-events: none;
+        }
+        
+        /* Mobile responsiveness */
+        @media (max-width: 600px) {
+            h1 { font-size: 2.2rem; }
+            .content-block { padding: 25px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="orb"></div>
+    
+    <div class="container">
+        <header>
+            <h1>Cosmix</h1>
+            <div class="date-badge">Effective Date: April 7, 2026</div>
+        </header>
+
+        <div class="content-block">
+            <p>Welcome to the <span class="highlight">Cosmix</span> universe! By adding Cosmix to your Discord server or interacting with it in any way, you are agreeing to these Terms of Service. If you don't agree with these terms, please kick the bot from your server.</p>
+
+            <h2>1. Acceptance of Terms</h2>
+            <p>By inviting <strong>Cosmix</strong> ("the Bot", "we", "us") into your Discord server or using its features, you agree to be bound by these Terms of Service. We reserve the right to update these terms at any time without prior notice. Continued use of the Bot constitutes acceptance of any updated terms.</p>
+
+            <h2>2. Usage Guidelines</h2>
+            <p>We want Cosmix to be a powerful and fun tool for your community. To keep things running smoothly, you agree to follow these rules:</p>
+            <ul>
+                <li><strong>No Abuse:</strong> You may not intentionally spam, exploit, or attempt to crash the Bot.</li>
+                <li><strong>No Illegal Activity:</strong> You may not use the Bot to facilitate illegal activities or violate Discord's own Terms of Service and Community Guidelines.</li>
+                <li><strong>No Impersonation:</strong> You may not use the Bot to impersonate other individuals, server staff, or the Cosmix development team.</li>
+            </ul>
+
+            <h2>3. Data Collection and Privacy</h2>
+            <p>To function properly, Cosmix needs to process certain information from your Discord server:</p>
+            <ul>
+                <li><strong>What we collect:</strong> User IDs, Server IDs, Channel IDs, and the contents of the commands you execute.</li>
+                <li><strong>What we do NOT collect:</strong> We do not log everyday chat messages, passwords, or personal identifiable information (PII) outside of public Discord profile data.</li>
+            </ul>
+
+            <h2>4. Service Availability</h2>
+            <p>The Bot is provided on an "as is" and "as available" basis. We do not guarantee 100% uptime. The Bot may occasionally go offline for scheduled updates, bug fixes, or unforeseen Discord API outages.</p>
+
+            <h2>5. Limitation of Liability</h2>
+            <p>Under no circumstances shall the developers of Cosmix be held liable for any direct, indirect, incidental, or consequential damages resulting from the use or inability to use the Bot. <strong>You are solely responsible for how you configure and use Cosmix in your server.</strong></p>
+
+            <h2>6. Termination of Service</h2>
+            <p>We reserve the right to terminate or restrict your access to Cosmix at any time, for any reason, with or without notice. You can terminate this agreement at any time simply by removing Cosmix from your Discord server.</p>
+
+            <h2>7. Contact Us</h2>
+            <p>Got questions, found a bug, or need to report abuse? Reach out to us directly!</p>
+            <ul>
+                <li><strong>Support Server:</strong> <a href="#">Join Here</a></li>
+                <li><strong>Developer Contact:</strong> <a href="mailto:support@cosmixbot.com">support@cosmixbot.com</a></li>
+                <li><strong>Website:</strong> <a href="#">cosmixbot.com</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-note">
+            Cosmix is not affiliated with, supported by, or endorsed by Discord Inc.
+        </div>
+    </div>
+</body>
+</html>
